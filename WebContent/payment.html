@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Payment Page</title>
+</head>
+<body>
+	<br/>
+	<hr>
+	<h2>Enter Payment Details</h2>
+	
+	<form action="payment-details" method="POST">
+		Name on card: <input type="text" name="name" required> <br/><br/>
+		Card Number: <input type="text" name="cardnumber" placeholder="1234 1234 4321 9123" required> <br/><br/>
+		Date of Expiry: <input type="date" name="expiration" required> <br/><br/>
+		CVV: <input type="number" name="cvv" placeholder="123" required> <br/><br/>
+		<input type="submit" value="Pay">
+	</form>
+	
+</body>
+</html>
+
